@@ -1,4 +1,5 @@
-// useRef入力された文字列や要素を取得する
+// フックス（useRef）入力された文字列や要素を取得する
+// フックス（useState）オブジェクトを監視管理する役目、更新するようなクリックされた時にrenderするためのもの
 import { useState, useRef } from "react";
 import TodoList from './TodoList';
 // npm install uuidにてランダムなIDを自動生成する機能をインストールしimport
